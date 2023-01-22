@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/src/helper/quad_clipper.dart';
-import 'package:my_app/src/pages/recomended_page.dart';
-import 'package:my_app/src/theme/color/light_color.dart';
+import 'package:myapptest/src/helper/quad_clipper.dart';
+import 'package:myapptest/src/pages/recomended_page.dart';
+import 'package:myapptest/src/theme/color/light_color.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -528,30 +528,6 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
-        selectedItemColor: LightColor.purple,
-        unselectedItemColor: Colors.grey.shade300,
-        type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.white,
-        currentIndex: 0,
-        items: [
-          _bottomIcons(Icons.home),
-          _bottomIcons(Icons.search),
-          _bottomIcons(Icons.add_circle_outline),
-          _bottomIcons(Icons.notifications_active),
-          _bottomIcons(Icons.person),
-        ],
-        onTap: (index) {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-              builder: (context) => RecomendedPage(),
-            ),
-          );
-        },
-      ),
       body: SingleChildScrollView(
         child: Container(
           child: Column(
