@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapptest/src/helper/quad_clipper.dart';
 import 'package:myapptest/src/pages/recomended_page.dart';
 import 'package:myapptest/src/theme/color/light_color.dart';
+import 'package:myapptest/src/pages/patient_detail.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -156,7 +157,13 @@ class HomePage extends StatelessWidget {
                       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpMr-DUCpcdCJbKogu-Wi4xSnE3RB_osXxO3Dx_mP_OMsBZBhe50LRVOrw6bgR5PT677Dfree4aWz2XZka3wOJgZMZlJAdsSQzUsR0TWKiUPPUL7zXR45pV1-bS9oegQBAjzcavI2T0T6Fks-vAnbuSc5uhNm1K4vrEK66HqSx7uxF-4x8fLZShOcN/s612/gettyimages-1213508559-612x612.jpg"),
             ),
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Patientdetail_page(),
+                    ));
+              },
               child: _card(context,
                   primary: Colors.white,
                   chipColor: LightColor.lightOrange,
