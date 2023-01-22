@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapptest/src/helper/quad_clipper.dart';
+import 'package:myapptest/src/pages/home_page.dart';
+import 'package:myapptest/src/pages/main_page.dart';
 
 class Patientdetail_page extends StatelessWidget {
   const Patientdetail_page({Key? key}) : super(key: key);
@@ -41,12 +43,19 @@ class Patientdetail_page extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          Icon(
-                            Icons.keyboard_arrow_left,
-                            color: Colors.white,
-                            size: 40,
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => MainPage()));
+                            },
+                            child: Icon(
+                              Icons.keyboard_arrow_left,
+                              color: Colors.white,
+                              size: 40,
+                            ),
                           ),
-                          SizedBox(height: 10),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: <Widget>[
@@ -131,7 +140,7 @@ class Patientdetail_page extends StatelessWidget {
                 isPrimaryCard: true,
                 imgPath:
                     //nationality
-                    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi30gtyEowunFNv4LkNgMUTnQuqwBEWIuoZJaK7LFlGuu-UwVdPH1ja-WT5szXsMzYVvJtpTKOQBcPuftVU4xzpAThJRhye1rRFlHWoT3ywrkMxnRiiZQBbmtgg3rH1SWgAU3zkHmaBRiDup9aKKOkjx1BbmpMXZklSOX2N4HufjJBa83XGvNYbI6kX/s612/gettyimages-1335872429-612x612.jpg"),
+                    "https://blogger.googleusercontent.com/img/a/AVvXsEhcZ7xbEPrNBGOqWaUuXKE6lTnZeOWUOVxHQvQK2nfRjoQ6GOvOO7uRxwFU_XV-DRWTKPaU4yVklU6dQIiwhqjk3_xiLjxhFPCcIbs1lgbS6N8dmn-cZ14a20F8dqSStMvHvZenMDLYY8LPN0JTj3GUPX7p_97PsI9qAIlZbZvhbpON5vaGi5daAfRG"),
             _card(context,
                 primary: Colors.white,
                 chipColor: Colors.purple,
@@ -154,7 +163,7 @@ class Patientdetail_page extends StatelessWidget {
                 chipText2: "BMI",
                 imgPath:
                     //BMI
-                    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheLa9KGv6FI2kSc4QEqjyONsuRKW32HBdX3vUoK5_KTI6EpsNQDG-gx958-0d8OuIEI79wBCOSjyaLOvnGLDOLK0y25s83o20S--4alG2UvgOU4b52uHmdBxWtmVO7OuZzfUEJLJp4uQAIX23Z6MS6Roj7JRigUkD15JJDEDVLHpa890tKBk_5mEt_/s612/gettyimages-1141737652-612x612.jpg"),
+                    "https://blogger.googleusercontent.com/img/a/AVvXsEj12_XxXw8afp901El2A7BFygGZQEhnysNkL-azL7jfPSo8ouDnMieX8M_s9pa9menL3C29ObsdvNBMsjMXoVSWGHwtS_npd7MA3oqSIQHbuH4m3RcTDXISLNebWf2QtZ80urAtpMGEF3d6UKj-m3Kl-_l66Ct5NFawGji1QtMc1pbkS1DRJL019Quj"),
             _card(context,
                 primary: Colors.white,
                 chipColor: Colors.blue,
@@ -380,7 +389,7 @@ class Patientdetail_page extends StatelessWidget {
               children: <Widget>[
                 backWidget!,
                 Positioned(
-                    top: 20,
+                    top: 10,
                     left: 10,
                     child: CircleAvatar(
                       backgroundColor: Colors.grey.shade300,
@@ -414,9 +423,9 @@ class Patientdetail_page extends StatelessWidget {
             child: Text(
               title,
               style: TextStyle(
-                fontSize: 13,
+                fontSize: 8,
                 fontWeight: FontWeight.bold,
-                color: isPrimaryCard ? Colors.white : textColor,
+                color: Colors.black,
               ),
             ),
           ),
@@ -439,7 +448,7 @@ class Patientdetail_page extends StatelessWidget {
       child: Text(
         text,
         style: TextStyle(
-            color: isPrimaryCard ? Colors.white : textColor, fontSize: 12),
+            color: isPrimaryCard ? Colors.white : textColor, fontSize: 9),
       ),
     );
   }
