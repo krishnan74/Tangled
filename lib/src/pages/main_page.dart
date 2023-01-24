@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:myapptest/src/helper/quad_clipper.dart';
-import 'package:myapptest/src/pages/Profile_page.dart';
 import 'package:myapptest/src/pages/home_page.dart';
 import 'package:myapptest/src/pages/notification_page.dart';
 import 'package:myapptest/src/pages/recomended_page.dart';
-import 'package:myapptest/src/pages/schedule_page.dart';
+import 'package:myapptest/src/pages/remainder_page.dart';
+
 import 'package:myapptest/src/theme/color/light_color.dart';
 
 class MainPage extends StatefulWidget {
@@ -19,9 +19,9 @@ class _MainPageState extends State<MainPage> {
   static List<Widget> _widgetOptions = <Widget>[
     HomePage(),
     RecomendedPage(),
-    Schedule_page(),
+    Remainder_page(),
     Notification_page(),
-    Profile_page(),
+
   ];
 
   void _onItemTapped(int index) {
@@ -47,10 +47,11 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(icon: const Icon(Icons.home), label: ""),
             BottomNavigationBarItem(icon: const Icon(Icons.search), label: ""),
             BottomNavigationBarItem(
-                icon: const Icon(Icons.add_circle_outline), label: ""),
+                icon: const Icon(Icons.notifications), label: ""),
+
             BottomNavigationBarItem(
                 icon: const Icon(Icons.notifications_active), label: ""),
-            BottomNavigationBarItem(icon: const Icon(Icons.person), label: ""),
+
           ],
           currentIndex: _selectedIndex,
           onTap: _onItemTapped,

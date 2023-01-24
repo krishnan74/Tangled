@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
                               const CircleAvatar(
                                   radius: 35,
                                   backgroundImage: NetworkImage(
-                                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDJSWUR4fM7MMxMMjKvagCZkkgijJ38YvtqMdYSQaqclLNfq7l_bUTRNReUyKu_umW_-alVOXntCl9yCXWxa_IPl7ukC0LDFtAUqHsekWjuW6SzzAbWwZrYetscx83RzElMl4X4kOtBWKndL3q0u8mBChfpaoIa05bJTWMpreMI-bAbXle9tBCS3Zd/s612/istockphoto-177373093-612x612.jpg"))
+                                    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDJSWUR4fM7MMxMMjKvagCZkkgijJ38YvtqMdYSQaqclLNfq7l_bUTRNReUyKu_umW_-alVOXntCl9yCXWxa_IPl7ukC0LDFtAUqHsekWjuW6SzzAbWwZrYetscx83RzElMl4X4kOtBWKndL3q0u8mBChfpaoIa05bJTWMpreMI-bAbXle9tBCS3Zd/s320/istockphoto-177373093-612x612.jpg"))
                             ],
                           ),
                         ],
@@ -138,7 +138,7 @@ class HomePage extends StatelessWidget {
                   chipText2: "Dementia",
                   isPrimaryCard: true,
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi30gtyEowunFNv4LkNgMUTnQuqwBEWIuoZJaK7LFlGuu-UwVdPH1ja-WT5szXsMzYVvJtpTKOQBcPuftVU4xzpAThJRhye1rRFlHWoT3ywrkMxnRiiZQBbmtgg3rH1SWgAU3zkHmaBRiDup9aKKOkjx1BbmpMXZklSOX2N4HufjJBa83XGvNYbI6kX/s612/gettyimages-1335872429-612x612.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheLa9KGv6FI2kSc4QEqjyONsuRKW32HBdX3vUoK5_KTI6EpsNQDG-gx958-0d8OuIEI79wBCOSjyaLOvnGLDOLK0y25s83o20S--4alG2UvgOU4b52uHmdBxWtmVO7OuZzfUEJLJp4uQAIX23Z6MS6Roj7JRigUkD15JJDEDVLHpa890tKBk_5mEt_/s320/gettyimages-1141737652-612x612.jpg"),
             ),
             GestureDetector(
               onTap: () {},
@@ -154,7 +154,7 @@ class HomePage extends StatelessWidget {
                   chipText1: "Jade",
                   chipText2: "Depression",
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpMr-DUCpcdCJbKogu-Wi4xSnE3RB_osXxO3Dx_mP_OMsBZBhe50LRVOrw6bgR5PT677Dfree4aWz2XZka3wOJgZMZlJAdsSQzUsR0TWKiUPPUL7zXR45pV1-bS9oegQBAjzcavI2T0T6Fks-vAnbuSc5uhNm1K4vrEK66HqSx7uxF-4x8fLZShOcN/s612/gettyimages-1213508559-612x612.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOnzB0TqP3GlNnhSDDXVP872TgdKKsz4OIehOUenCziQq3ixqyl6bASwIuYjZMqEeuLEataMNhVMj5pqkr0YKwP40-J6gtmRVodmJYfwg6reFb4rowlVz_ASclQuMYd-FG3Y4t5TsCwmcrl4lmdwY2Xg8KU3YFYeZ9rD1u2E5QXvq4p8ATJSxfq2Yx/s320/istockphoto-629077354-170667a.jpg"),
             ),
             GestureDetector(
               onTap: () {
@@ -171,7 +171,7 @@ class HomePage extends StatelessWidget {
                   chipText1: "Freedan",
                   chipText2: "Anxiety",
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheLa9KGv6FI2kSc4QEqjyONsuRKW32HBdX3vUoK5_KTI6EpsNQDG-gx958-0d8OuIEI79wBCOSjyaLOvnGLDOLK0y25s83o20S--4alG2UvgOU4b52uHmdBxWtmVO7OuZzfUEJLJp4uQAIX23Z6MS6Roj7JRigUkD15JJDEDVLHpa890tKBk_5mEt_/s612/gettyimages-1141737652-612x612.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi30gtyEowunFNv4LkNgMUTnQuqwBEWIuoZJaK7LFlGuu-UwVdPH1ja-WT5szXsMzYVvJtpTKOQBcPuftVU4xzpAThJRhye1rRFlHWoT3ywrkMxnRiiZQBbmtgg3rH1SWgAU3zkHmaBRiDup9aKKOkjx1BbmpMXZklSOX2N4HufjJBa83XGvNYbI6kX/s320/gettyimages-1335872429-612x612.jpg"),
             ),
             GestureDetector(
               onTap: () {},
@@ -213,7 +213,7 @@ class HomePage extends StatelessWidget {
                   chipText2: "Schizoprenia",
                   isPrimaryCard: true,
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9uBjvfOd6OlaYV-8_QiiR8ZEaafCx2P8UakQpA2rcykCr7GI_ZauYRjN7CGpFujdlox0jIwafG1GAr2ufY2Pk2wUX_H6-breQTZ12HKQlqcd5iQhoKV2K7MFVzU1fjRrZQvHWBhRyZPDnke2bRp6dNuhUb4o9TIUwySQGLU_JP4GVjI9iq-cFnSlQ/s612/gettyimages-1159948727-612x612.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9uBjvfOd6OlaYV-8_QiiR8ZEaafCx2P8UakQpA2rcykCr7GI_ZauYRjN7CGpFujdlox0jIwafG1GAr2ufY2Pk2wUX_H6-breQTZ12HKQlqcd5iQhoKV2K7MFVzU1fjRrZQvHWBhRyZPDnke2bRp6dNuhUb4o9TIUwySQGLU_JP4GVjI9iq-cFnSlQ/s320/gettyimages-1159948727-612x612.jpg"),
             ),
             GestureDetector(
               onTap: () {},
@@ -229,7 +229,7 @@ class HomePage extends StatelessWidget {
                   chipText1: "Freedan",
                   chipText2: "Anxiety",
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheLa9KGv6FI2kSc4QEqjyONsuRKW32HBdX3vUoK5_KTI6EpsNQDG-gx958-0d8OuIEI79wBCOSjyaLOvnGLDOLK0y25s83o20S--4alG2UvgOU4b52uHmdBxWtmVO7OuZzfUEJLJp4uQAIX23Z6MS6Roj7JRigUkD15JJDEDVLHpa890tKBk_5mEt_/s612/gettyimages-1141737652-612x612.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi30gtyEowunFNv4LkNgMUTnQuqwBEWIuoZJaK7LFlGuu-UwVdPH1ja-WT5szXsMzYVvJtpTKOQBcPuftVU4xzpAThJRhye1rRFlHWoT3ywrkMxnRiiZQBbmtgg3rH1SWgAU3zkHmaBRiDup9aKKOkjx1BbmpMXZklSOX2N4HufjJBa83XGvNYbI6kX/s320/gettyimages-1335872429-612x612.jpg"),
             ),
             GestureDetector(
               onTap: () {},
@@ -241,7 +241,7 @@ class HomePage extends StatelessWidget {
                   chipText1: "Priya",
                   chipText2: "Depression",
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizXQB_TJVeqtZ_q1qnpc8deNVcYNuy0DuBRqqVks_X2WYVMbyuxqFUreOx2w3q88M-ixpwsvcjn_i2eTNQVzZBX8hw0uGUsk-Migg2N10fprGnmNsugGFcqHORJUhSL-D1T0_BP3iP1qJa-GbkLyaG0Wnwb2RtU52O6btWpkX8aZH29IFqToChFOLT/s612/gettyimages-578811112-612x612.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1gTvHYOno88eAA7WAMZocIUEhN8k_9BC2MBPrdF1Rn29ZwYERyiTOxpDz6mWEiOYTB9rA73KGMLtFts6Fs2mbKvBpgwc6JDg5xizYJhQLwhkqD3OjnYpIOwLHMDHFepRcyH4omL1lkOSY1Htnm2BqIUyviIutuzig42tpnWkm9k1jA3uZWirSIdIU/s320/gettyimages-1213300831-612x612.jpg"),
             ),
             GestureDetector(
               onTap: () {},
@@ -256,7 +256,7 @@ class HomePage extends StatelessWidget {
                   chipText1: "Jeena",
                   chipText2: "Alzheimers",
                   imgPath:
-                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOnzB0TqP3GlNnhSDDXVP872TgdKKsz4OIehOUenCziQq3ixqyl6bASwIuYjZMqEeuLEataMNhVMj5pqkr0YKwP40-J6gtmRVodmJYfwg6reFb4rowlVz_ASclQuMYd-FG3Y4t5TsCwmcrl4lmdwY2Xg8KU3YFYeZ9rD1u2E5QXvq4p8ATJSxfq2Yx/s508/istockphoto-629077354-170667a.jpg"),
+                      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizXQB_TJVeqtZ_q1qnpc8deNVcYNuy0DuBRqqVks_X2WYVMbyuxqFUreOx2w3q88M-ixpwsvcjn_i2eTNQVzZBX8hw0uGUsk-Migg2N10fprGnmNsugGFcqHORJUhSL-D1T0_BP3iP1qJa-GbkLyaG0Wnwb2RtU52O6btWpkX8aZH29IFqToChFOLT/s320/gettyimages-578811112-612x612.jpg"),
             ),
           ],
         ),

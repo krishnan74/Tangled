@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:myapptest/src/helper/quad_clipper.dart';
 
-import 'package:myapptest/src/helper/courseModel.dart';
+import 'package:myapptest/src/helper/course_model_remainder.dart';
 
 import 'package:myapptest/src/pages/home_page.dart';
 import 'package:myapptest/src/theme/color/light_color.dart';
 import 'package:myapptest/src/theme/theme.dart';
 
-class RecomendedPage extends StatelessWidget {
-  const RecomendedPage({Key? key}) : super(key: key);
+class Remainder_page extends StatelessWidget {
+  const Remainder_page({Key? key}) : super(key: key);
 
   Widget _header(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
@@ -107,13 +107,9 @@ class RecomendedPage extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   SizedBox(width: 20),
-                  _chip("Jade", LightColor.yellow, height: 5),
+                  _chip("Consultation", LightColor.yellow, height: 5),
                   SizedBox(width: 10),
-                  _chip("Jeena", LightColor.seeBlue, height: 5),
-                  SizedBox(width: 10),
-                  _chip("Freedan", LightColor.orange, height: 5),
-                  SizedBox(width: 10),
-                  _chip("Nithin", LightColor.lightBlue, height: 5),
+                  _chip("Remainder", LightColor.seeBlue, height: 5),
                 ],
               )),
         ],
@@ -171,7 +167,7 @@ class RecomendedPage extends StatelessWidget {
     );
   }
 
-  Widget _courceInfo(BuildContext context, CourseModel model, Widget decoration,
+  Widget _courceInfo(BuildContext context, CourseModelRemainder model, Widget decoration,
       {Color? background}) {
     return Container(
         height: 170,
@@ -185,57 +181,57 @@ class RecomendedPage extends StatelessWidget {
             ),
             Expanded(
                 child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                SizedBox(height: 15),
-                Container(
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: <Widget>[
-                      Expanded(
-                        child: Text(model.name,
-                            style: TextStyle(
-                                color: LightColor.purple,
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold)),
-                      ),
-                      CircleAvatar(
-                        radius: 3,
-                        backgroundColor: background,
-                      ),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      Text(model.noOfCource,
-                          style: TextStyle(
-                            color: LightColor.grey,
-                            fontSize: 14,
-                          )),
-                      SizedBox(width: 10)
-                    ],
-                  ),
-                ),
-                Text(model.university,
-                    style: AppTheme.h6Style.copyWith(
-                      fontSize: 12,
-                      color: LightColor.grey,
-                    )),
-                SizedBox(height: 15),
-                Text(model.description,
-                    style: AppTheme.h6Style.copyWith(
-                        fontSize: 12, color: LightColor.extraDarkPurple)),
-                SizedBox(height: 15),
-                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    _chip(model.tag1, LightColor.darkOrange, height: 5),
-                    SizedBox(
-                      width: 10,
+                    SizedBox(height: 15),
+                    Container(
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: <Widget>[
+                          Expanded(
+                            child: Text(model.name,
+                                style: TextStyle(
+                                    color: LightColor.purple,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold)),
+                          ),
+                          CircleAvatar(
+                            radius: 3,
+                            backgroundColor: background,
+                          ),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(model.noOfCource,
+                              style: TextStyle(
+                                color: LightColor.grey,
+                                fontSize: 14,
+                              )),
+                          SizedBox(width: 10)
+                        ],
+                      ),
                     ),
-                    _chip(model.tag2, LightColor.seeBlue, height: 5),
+                    Text(model.university,
+                        style: AppTheme.h6Style.copyWith(
+                          fontSize: 12,
+                          color: LightColor.grey,
+                        )),
+                    SizedBox(height: 15),
+                    Text(model.description,
+                        style: AppTheme.h6Style.copyWith(
+                            fontSize: 12, color: LightColor.extraDarkPurple)),
+                    SizedBox(height: 15),
+                    Row(
+                      children: <Widget>[
+                        _chip(model.tag1, LightColor.darkOrange, height: 5),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        _chip(model.tag2, LightColor.seeBlue, height: 5),
+                      ],
+                    )
                   ],
-                )
-              ],
-            ))
+                ))
           ],
         ));
   }
@@ -282,7 +278,7 @@ class RecomendedPage extends StatelessWidget {
             radius: 60,
             backgroundColor: LightColor.darkseeBlue,
             child:
-                CircleAvatar(radius: 40, backgroundColor: LightColor.seeBlue),
+            CircleAvatar(radius: 40, backgroundColor: LightColor.seeBlue),
           ),
         ),
         Positioned(
@@ -315,7 +311,7 @@ class RecomendedPage extends StatelessWidget {
             bottom: -35,
             right: -40,
             child:
-                CircleAvatar(backgroundColor: LightColor.yellow, radius: 40)),
+            CircleAvatar(backgroundColor: LightColor.yellow, radius: 40)),
         Positioned(
           top: 50,
           left: -40,
@@ -384,7 +380,7 @@ class RecomendedPage extends StatelessWidget {
 
   BottomNavigationBarItem _bottomIcons(IconData icon) {
     return BottomNavigationBarItem(
-        //  backgroundColor: Colors.blue,
+      //  backgroundColor: Colors.blue,
         icon: Icon(icon),
         label: '');
   }

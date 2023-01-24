@@ -626,25 +626,10 @@ class Patientdetail_page extends StatelessWidget {
     return BottomNavigationBarItem(icon: Icon(icon), label: "");
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
-        selectedItemColor: Colors.purple,
-        unselectedItemColor: Colors.grey.shade300,
-        type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.white,
-        currentIndex: 0,
-        items: [
-          _bottomIcons(Icons.home),
-          _bottomIcons(Icons.search),
-          _bottomIcons(Icons.add_circle_outline),
-          _bottomIcons(Icons.notifications_active),
-          _bottomIcons(Icons.person),
-        ],
-      ),
       body: SingleChildScrollView(
         child: Container(
           child: Column(

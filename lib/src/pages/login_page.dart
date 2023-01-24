@@ -23,7 +23,7 @@ class _LoginDemoState extends State<LoginDemo> {
                     /*decoration: BoxDecoration(
                        color: Colors.red,
                        borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.asset('')),
+                    child:Text("LOGIN PAGE")),
                 //ENTER IMAGE PATH
               ),
             ),
